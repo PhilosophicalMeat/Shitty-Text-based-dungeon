@@ -1,0 +1,571 @@
+switch(){
+            //all the ROOM classes
+            case "AR1" :
+            case "AR2" :
+            case "AR3" :
+            case "AR4" :
+            case "AR5" :
+            case "AR6" :
+            case "AR7" :
+            case "AR8" :
+            case "AR9" :
+            case "AR10" :
+            case "AR11" :
+            case "AR12" :
+            case "AR13" :
+            case "AR14" :
+            case "AR15" :
+            case "AR16" :
+            case "AR17" :
+            case "AR18" :
+            case "AR19" :
+            case "AR20" :
+            case "AR21" :
+            case "AR22" :
+            case "AR23" :
+            case "AR24" :
+            case "AR25" :
+            case "AR26" :
+            case "AR27" :
+            case "AR28" :
+            case "AR29" :
+            case "AR30" :
+            case "AR31" :
+            case "AR32" :
+            case "AR33" :
+            //all the HALLWAY classes
+            case "AH1" :
+            case "AH2" :
+            case "AH3" :
+            case "AH4" :
+            case "AH5" :
+            case "AH6" :
+            case "AH7" :
+            case "AH8" :
+            case "AH9" :
+            case "AH10" :
+            case "AH11" :
+            case "AH12" :
+            case "AH13" :
+            case "AH14" :
+            case "AH15" :
+            case "AH16" :
+            case "AH17" :
+            case "AH18" :
+            case "AH19" :
+            case "AH20" :
+            case "AH21" :
+            case "AH22" :
+            case "AH23" :
+            case "AH24" :
+            case "AH25" :
+            case "AH26" :
+            case "AH27" :
+            case "AH28" :
+            case "AH29" :
+            case "AH30" :
+            case "AH31" :
+            case "AH32" :
+            case "AH33" :
+            case "AH34" :
+            case "AH35" :
+            case "AH36" :
+            case "AH37" :
+            case "AH38" :
+            case "AH39" :
+            case "AH40" :
+            case "AH41" :
+            case "AH42" :
+            case "AH43" :
+            //DEFAULT SWITCH CASE
+            default:
+                System.out.println("Error. something went wrong. find out why. \n the value of <roomName> is currently"+roomName);
+
+        }
+
+
+
+        //THE ALTERNATIVE
+        switch(roomName){
+                    //all the ROOM classes
+                    case "AR1" :roomArrayIndex=0;
+                    getRoomActions();
+                    case "AR2" :roomArrayIndex=1;
+                        getRoomActions();
+                    case "AR3" :roomArrayIndex=2;
+                        getRoomActions();
+                    case "AR4" :roomArrayIndex=3;
+                        getRoomActions();
+                    case "AR5" : roomArrayIndex=4;
+                        getRoomActions();
+                    case "AR6" :roomArrayIndex=5;
+                        getRoomActions();
+                    case "AR7" :roomArrayIndex=6;
+                        getRoomActions();
+                    case "AR8" :roomArrayIndex=7;
+                        getRoomActions();
+                    case "AR9" :roomArrayIndex=8;
+                        getRoomActions();
+                    case "AR10" :roomArrayIndex=9;
+                        getRoomActions();
+                    case "AR11" :roomArrayIndex=10;
+                        getRoomActions();
+                    case "AR12" :roomArrayIndex=11;
+                        getRoomActions();
+                    case "AR13" :roomArrayIndex=12;
+                        getRoomActions();
+                    case "AR14" :roomArrayIndex=13;
+                        getRoomActions();
+                    case "AR15" :roomArrayIndex=14;
+                        getRoomActions();
+                    case "AR16" :roomArrayIndex=15;
+                        getRoomActions();
+                    case "AR17" :roomArrayIndex=16;
+                        getRoomActions();
+                    case "AR18" :roomArrayIndex=17;
+                        getRoomActions();
+                    case "AR19" :roomArrayIndex=18;
+                        getRoomActions();
+                    case "AR20" :roomArrayIndex=19;
+                        getRoomActions();
+                    case "AR21" :roomArrayIndex=20;
+                        getRoomActions();
+                    case "AR22" :roomArrayIndex=21;
+                        getRoomActions();
+                    case "AR23" :roomArrayIndex=22;
+                        getRoomActions();
+                    case "AR24" :roomArrayIndex=23;
+                        getRoomActions();
+                    case "AR25" :roomArrayIndex=24;
+                        getRoomActions();
+                    case "AR26" :roomArrayIndex=25;
+                        getRoomActions();
+                    case "AR27" :roomArrayIndex=26;
+                        getRoomActions();
+                    case "AR28" :roomArrayIndex=27;
+                        getRoomActions();
+                    case "AR29" :roomArrayIndex=28;
+                        getRoomActions();
+                    case "AR30" :roomArrayIndex=29;
+                        getRoomActions();
+                    case "AR31" :roomArrayIndex=30;
+                        getRoomActions();
+                    case "AR32" :roomArrayIndex=31;
+                        getRoomActions();
+                    case "AR33" :roomArrayIndex=32;
+                        getRoomActions();
+                        //all the HALLWAY classes
+                    case "AH1" :hallwayArrayIndex=0;
+                        getHallwayActions();
+                    case "AH2" :hallwayArrayIndex=1;
+                        getHallwayActions();
+                    case "AH3" :hallwayArrayIndex=2;
+                        getHallwayActions();
+                    case "AH4" :hallwayArrayIndex=3;
+                        getHallwayActions();
+                    case "AH5" :hallwayArrayIndex=4;
+                        getHallwayActions();
+                    case "AH6" :hallwayArrayIndex=5;
+                        getHallwayActions();
+                    case "AH7" :hallwayArrayIndex=6;
+                        getHallwayActions();
+                    case "AH8" :hallwayArrayIndex=7;
+                        getHallwayActions();
+                    case "AH9" :hallwayArrayIndex=8;
+                        getHallwayActions();
+                    case "AH10" :hallwayArrayIndex=9;
+                        getHallwayActions();
+                    case "AH11" :hallwayArrayIndex=10;
+                        getHallwayActions();
+                    case "AH12" :hallwayArrayIndex=11;
+                        getHallwayActions();
+                    case "AH13" :hallwayArrayIndex=12;
+                        getHallwayActions();
+                    case "AH14" :hallwayArrayIndex=13;
+                        getHallwayActions();
+                    case "AH15" :hallwayArrayIndex=14;
+                        getHallwayActions();
+                    case "AH16" :hallwayArrayIndex=15;
+                        getHallwayActions();
+                    case "AH17" :hallwayArrayIndex=16;
+                        getHallwayActions();
+                    case "AH18" :hallwayArrayIndex=17;
+                        getHallwayActions();
+                    case "AH19" :hallwayArrayIndex=18;
+                        getHallwayActions();
+                    case "AH20" :hallwayArrayIndex=19;
+                        getHallwayActions();
+                    case "AH21" :hallwayArrayIndex=20;
+                        getHallwayActions();
+                    case "AH22" :hallwayArrayIndex=21;
+                        getHallwayActions();
+                    case "AH23" :hallwayArrayIndex=22;
+                        getHallwayActions();
+                    case "AH24" :hallwayArrayIndex=23;
+                        getHallwayActions();
+                    case "AH25" :hallwayArrayIndex=24;
+                        getHallwayActions();
+                    case "AH26" :hallwayArrayIndex=25;
+                        getHallwayActions();
+                    case "AH27" :hallwayArrayIndex=26;
+                        getHallwayActions();
+                    case "AH28" :hallwayArrayIndex=27;
+                        getHallwayActions();
+                    case "AH29" :hallwayArrayIndex=28;
+                        getHallwayActions();
+                    case "AH30" :hallwayArrayIndex=29;
+                        getHallwayActions();
+                    case "AH31" :hallwayArrayIndex=30;
+                        getHallwayActions();
+                    case "AH32" :hallwayArrayIndex=31;
+                        getHallwayActions();
+                    case "AH33" :hallwayArrayIndex=32;
+                        getHallwayActions();
+                    case "AH34" :hallwayArrayIndex=33;
+                        getHallwayActions();
+                    case "AH35" :hallwayArrayIndex=34;
+                        getHallwayActions();
+                    case "AH36" :hallwayArrayIndex=35;
+                        getHallwayActions();
+                    case "AH37" :hallwayArrayIndex=36;
+                        getHallwayActions();
+                    case "AH38" :hallwayArrayIndex=37;
+                        getHallwayActions();
+                    case "AH39" :hallwayArrayIndex=38;
+                        getHallwayActions();
+                    case "AH40" :hallwayArrayIndex=39;
+                        getHallwayActions();
+                    case "AH41" :hallwayArrayIndex=40;
+                        getHallwayActions();
+                    case "AH42" :hallwayArrayIndex=41;
+                        getHallwayActions();
+                    case "AH43" :hallwayArrayIndex=42;
+                        getHallwayActions();
+                        //DEFAULT SWITCH CASE
+                    default:
+                        System.out.println("Error. something went wrong. find out why. \n the value of <roomName> is currently"+roomName);
+
+                }
+
+
+
+                //REDUNDANT ROOM NAVIGATION SYSTEM
+
+
+                /*
+                    //LOCATION CLASSES
+                    public static void enterAR1(){
+                        roomName.equals("AR1");
+                        roomArrayIndex = 0;
+                        System.out.println("you are in AR1. theres basically nothing in here");
+                        getRoomActions();
+                    }
+                    public static void enterAR2(){
+                        roomName.equals("AR2");
+                        System.out.println("you have entered AR2");
+                        roomArrayIndex = 1;
+                        getRoomActions();
+                    }
+                    public static void enterAR3(){
+                        roomName.equals("AR3");
+                        System.out.println("you have entered AR3");
+                        roomArrayIndex = 2;
+                        getRoomActions();
+                    }
+                    public static void enterAR4(){
+                        roomName.equals("AR4");
+                        System.out.println("you have entered AR4");
+                        roomArrayIndex = 3;
+                        getRoomActions();
+                    }
+                    public static void enterAR5(){
+                        roomName.equals("AR5");
+                        System.out.println("you have entered AR5");
+                        roomArrayIndex = 4;
+                        getRoomActions();
+                    }
+                    public static void enterAR6(){
+                        roomName.equals("AR6");
+                        System.out.println("you have entered AR6");
+                        roomArrayIndex=5;
+                        getRoomActions();
+                    }
+                    public static void enterAR7(){
+                        roomName.equals("AR7");
+                        System.out.println("you have entered AR7");
+                        roomArrayIndex = 6;
+                        getRoomActions();
+                    }
+                    public static void enterAR8(){
+                        roomName.equals("AR8");
+                        System.out.println("you have entered AR8");
+                        roomArrayIndex = 7;
+                        getRoomActions();
+                    }
+                    //8
+                    public static void enterAR9(){
+                        roomName.equals("AR9");
+                        System.out.println("you have entered AR9");
+                        roomArrayIndex = 8;
+                        getRoomActions();
+                    }
+                    public static void enterAR10(){
+                        roomName.equals("AR10");
+                        System.out.println("you have entered AR10");
+                        roomArrayIndex = 9;
+                        getRoomActions();
+                    }
+                    public static void enterAR11(){
+                        System.out.println("you have entered AR11");
+                        roomArrayIndex = 10;
+                        getRoomActions();
+                    }
+                    public static void enterAR12(){
+                        System.out.println("you have entered AR12");
+                        roomArrayIndex = 11;
+                        getRoomActions();
+                    }
+                    public static void enterAR13(){
+                        System.out.println("you have entered AR13");
+                        roomArrayIndex = 12;
+                        getRoomActions();
+                    }
+                    public static void enterAR14(){
+                        System.out.println("you have entered AR14");
+                        roomArrayIndex = 13;
+                        getRoomActions();
+                    }
+                    public static void enterAR15(){
+                        System.out.println("you have entered AR15");
+                        roomArrayIndex = 14;
+                        getRoomActions();
+                    }
+                    public static void enterAR16(){
+                        System.out.println("you have entered AR16");
+                        roomArrayIndex = 15;
+                        getRoomActions();
+                    }
+                    //16
+                    public static void enterAR17(){
+                        System.out.println("you have entered AR17");
+                        roomArrayIndex = 16;
+                        getRoomActions();
+                    }
+                    public static void enterAR18(){
+                        System.out.println("you have entered AR18");
+                        roomArrayIndex = 17;
+                        getRoomActions();
+                    }
+                    public static void enterAR19(){
+                        System.out.println("you have entered AR19");
+                        roomArrayIndex = 18;
+                        getRoomActions();
+                    }
+                    public static void enterAR20(){
+                        System.out.println("you have entered AR20");
+                        roomArrayIndex = 19;
+                        getRoomActions();
+                    }
+                    public static void enterAR21(){
+                        System.out.println("you have entered AR21");
+                        roomArrayIndex = 20;
+                        getRoomActions();
+                    }
+                    public static void enterAR22(){
+                        System.out.println("you have entered AR22");
+                        roomArrayIndex = 21;
+                        getRoomActions();
+                    }
+                    public static void enterAR23(){
+                        System.out.println("you have entered AR23");
+                        roomArrayIndex = 22;
+                        getRoomActions();
+                    }
+                    public static void enterAR24(){
+                        System.out.println("you have entered AR24");
+                        roomArrayIndex = 23;
+                        getRoomActions();
+                    }
+                    //24
+                    public static void enterAR25(){
+                        System.out.println("you have entered AR25");
+                        roomArrayIndex = 24;
+                        getRoomActions();
+                    }
+                    public static void enterAR26(){
+                        System.out.println("you have entered AR26");
+                        roomArrayIndex = 25
+                        getRoomActions();
+                    }
+                    public static void enterAR27(){
+                        System.out.println("you have entered AR27");
+                        roomArrayIndex = 26;
+                        getRoomActions();
+                    }
+                    public static void enterAR28(){
+                        System.out.println("you have entered AR28");
+                        roomArrayIndex = 27
+                        getRoomActions();
+                    }
+                    public static void enterAR29(){
+                        System.out.println("you have entered AR29");
+                        roomArrayIndex = 28;
+                        getRoomActions();
+                    }
+                    public static void enterAR30(){
+                        System.out.println("you have entered AR30");
+                        roomArrayIndex = 29;
+                        getRoomActions();
+                    }
+                    public static void enterAR31(){
+                        System.out.println("you have entered AR31");
+                        roomArrayIndex = 30;
+                        getRoomActions();
+                    }
+                    public static void enterAR32(){
+                        roomArrayIndex = 31;
+                        System.out.println("you have entered AR32");
+                        getRoomActions();
+                    }
+                    public static void enterAR33(){
+                        roomArrayIndex = 32;
+                        System.out.println("You have entered AR33");
+                        getRoomActions();
+                    }
+                    //32
+
+                    //Section A Hallways
+                    public static void enterAH1(){
+                        System.out.println("you have entered AH1");
+                    }
+                    public static void enterAH2(){
+                        System.out.println("you have entered AH1");
+                    }
+                    public static void enterAH3(){
+                        System.out.println("you have entered AH3");
+                    }
+                    public static void enterAH4(){
+                        System.out.println("you have entered AH4");
+                    }
+                    public static void enterAH5(){
+                        System.out.println("you have entered AH5");
+                    }
+                    public static void enterAH6(){
+                        System.out.println("you have entered AH6");
+                    }
+                    public static void enterAH7(){
+                        System.out.println("you have entered AH7");
+                    }
+                    public static void enterAH8(){
+                        System.out.println("you have entered AH8");
+                    }
+                    //8
+                    public static void enterAH9(){
+                        System.out.println("you have entered AH9");
+                    }
+                    public static void enterAH10(){
+                        System.out.println("you have entered AH10");
+                    }
+                    public static void enterAH11(){
+                        System.out.println("you have entered AH11");
+                    }
+                    public static void enterAH12(){
+                        System.out.println("you have entered AH12");
+                    }
+                    public static void enterAH13(){
+                        System.out.println("you have entered AH13");
+                    }
+                    public static void enterAH14(){
+                        System.out.println("you have entered AH14");
+                    }
+                    public static void enterAH15(){
+                        System.out.println("you have entered AH15");
+                    }
+                    public static void enterAH16(){
+                        System.out.println("you have entered AH16");
+                    }
+                    //16
+                    public static void enterAH17(){
+                        System.out.println("you have entered AH17");
+                    }
+                    public static void enterAH18(){
+                        System.out.println("you have entered AH18");
+                    }
+                    public static void enterAH19(){
+                        System.out.println("you have entered AH19");
+                    }
+                    public static void enterAH20(){
+                        System.out.println("you have entered AH20");
+                    }
+                    public static void enterAH21(){
+                        System.out.println("you have entered AH21");
+                    }
+                    public static void enterAH22(){
+                        System.out.println("you have entered AH21");
+                    }
+                    public static void enterAH23(){
+                        System.out.println("you have entered AH23");
+                    }
+                    public static void enterAH24(){
+                        System.out.println("you have entered AH24");
+                    }
+                    //24
+                    public static void enterAH25(){
+                        System.out.println("you have entered AH25");
+                    }
+                    public static void enterAH26(){
+                        System.out.println("you have entered AH26");
+                    }
+                    public static void enterAH27(){
+                        System.out.println("you have entered AH27");
+                    }
+                    public static void enterAH28(){
+                        System.out.println("you have entered AH28");
+                    }
+                    public static void enterAH29(){
+                        System.out.println("you have entered AH29");
+                    }
+                    public static void enterAH30(){
+                        System.out.println("you have entered AH30");
+                    }
+                    public static void enterAH31(){
+                        System.out.println("you have entered AH31");
+                    }
+                    public static void enterAH32(){
+                        System.out.println("you have entered AH32");
+                    }
+                    //32
+                    public static void enterAH33(){
+                        System.out.println("you have entered AH33");
+                    }
+                    public static void enterAH34(){
+                        System.out.println("you have entered AH34");
+                    }
+                    public static void enterAH35(){
+                        System.out.println("you have entered AH35");
+                    }
+                    public static void enterAH36(){
+                        System.out.println("you have entered AH36");
+                    }
+                    public static void enterAH37(){
+                        System.out.println("you have entered AH37");
+                    }
+                    public static void enterAH38(){
+                        System.out.println("you have entered AH38");
+                    }
+                    public static void enterAH39(){
+                        System.out.println("you have entered AH39");
+                    }
+                    public static void enterAH40(){
+                        System.out.println("you have entered AH40");
+                    }
+                    public static void enterAH41(){
+                        System.out.println("you have entered AH41");
+                    }
+                    public static void enterAH42(){
+                        System.out.println("you have entered AH42");
+                    }
+                    public static void enterAH43(){
+                        System.out.println("you have entered AH43");
+                    }
+                    //43*/
